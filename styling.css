@@ -1,0 +1,95 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+/* CSS for the main body of the HTML, and the face */
+body {
+  background-image: url("orange.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 0px;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+.content {
+  width: 95%;
+  height: 100%;
+  margin-left: 38px;
+}
+h1 {
+  text-align: center;
+  font-size: 48px;
+}
+#body {
+  font-size: 25px;
+  text-align: center;
+}
+#face {
+  width: 100%;
+  height: 100%;
+  border-radius: 25%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 80px;
+  max-width: 700px;
+  max-height: 900px;
+}
+
+/* CSS for the sidebar, and all the logos */
+.menu {
+  height: 100%;
+  width: 38px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+.home {
+  color: white;
+  position: absolute;
+  top: 6px;
+  left: 7px;
+}
+#home-text {
+  position: absolute;
+  color: white;
+  text-decoration: none;
+  top: 6px;
+  left: 30px;
+}
+#git {
+  max-width: 25px;
+  max-height: 25px;
+  position: absolute;
+  top: 56px;
+  left: 7px;
+}
+#git-text {
+  position: absolute;
+  color: white;
+  text-decoration: none;
+  top: 62px;
+  left: 40px;
+}
+#twitter {
+  max-width: 25px;
+  max-height: 25px;
+  filter: invert(100%);
+  position: absolute;
+  top: 106px;
+  left: 7px;
+}
+#twitter-text {
+  position: absolute;
+  color: white;
+  text-decoration: none;
+  top: 110px;
+  left: 38px;
+}
